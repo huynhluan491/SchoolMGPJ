@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fc92c687a1b84273b0248c74a541755c" Name="Diagram1">
+        <EntityTypeShape EntityType="doAnModel.Account" Width="1.5" PointX="2.75" PointY="1.25" />
+        <EntityTypeShape EntityType="doAnModel.BienLai" Width="1.5" PointX="3" PointY="7.625" />
+        <EntityTypeShape EntityType="doAnModel.HocVien" Width="1.5" PointX="0.75" PointY="4.5" />
+        <EntityTypeShape EntityType="doAnModel.Lop" Width="1.5" PointX="6" PointY="4.5" />
+        <EntityTypeShape EntityType="doAnModel.MonHoc" Width="1.5" PointX="10.75" PointY="0.625" />
+        <EntityTypeShape EntityType="doAnModel.Thi" Width="1.5" PointX="8.375" PointY="3" />
+        <AssociationConnector Association="doAnModel.FK__BienLai__MaHocVi__234A136B" />
+        <AssociationConnector Association="doAnModel.FK__Thi__MaHocVien__2902ECC1" />
+        <AssociationConnector Association="doAnModel.FK__Lop__MaMonHoc__2BDF596C" />
+        <AssociationConnector Association="doAnModel.FK__Thi__MaMonHoc__280EC888" />
+        <AssociationConnector Association="doAnModel.ThamGia" />
+        <AssociationConnector Association="doAnModel.FK__BienLai__MaLop__6EA14102" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
